@@ -135,6 +135,7 @@ module.exports = function(grunt) {
         }
 
         make("www/index.html", buildRoot + "index.html", "");
+        make("www/license.html", buildRoot + "license/index.html", "License | ");
         make("www/releases.html", buildRoot + "releases/index.html", "Releases | ");
     });
 
